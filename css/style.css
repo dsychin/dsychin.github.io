@@ -1,0 +1,9 @@
+.name {
+    text-align: right;
+}
+
+.codeImage {
+    width: 100vw;
+    max-height: 60vh;
+    overflow: hidden;
+}
