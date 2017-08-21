@@ -1,9 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.name,
+.work h3 {
+    text-transform: uppercase;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
 .name {
     text-align: right;
+    float: right;
+    color: #2d3c49;
+}
+
+.logo {
+    float: left;
+}
+
+hr {
+    clear: both;
+}
+
+.workHeader {
+    color: #7d97ad;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    color: #2d3c49;
+}
+
+.work {
+    padding: 10px;
+    width: 33%;
+}
+
+.work img {
+    width: 100%;
 }
 
 .codeImage {
-    width: 100vw;
-    max-height: 60vh;
-    overflow: hidden;
+    background: url('../img/code.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
 }
