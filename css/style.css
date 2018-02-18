@@ -50,3 +50,20 @@ body {
 .dev-icons {
     font-size: 100px;
 }
+
+#skills h4 {
+    text-align: center;
+}
+
+#skill1,
+#skill2,
+#skill3 {
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+#skill1,
+#skill3 {
+    background-color: rgb(233, 233, 233);
+}
