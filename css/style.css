@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#intro {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color: white;
+}
+
+#intro h1 {
+    font-size: 70px;
+    padding-bottom: 20px;
+    font-weight: 100;
+    margin: 0;
+}
+
+#intro .button {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 30px 10px;
+}
+
+#intro .button:hover {
+    border: #BDBDBD 1px solid;
+    color: #BDBDBD;
+}
+
+.dev-icons {
+    font-size: 100px;
+}
