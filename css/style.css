@@ -128,3 +128,12 @@ footer p {
     padding-bottom: 30px;
     text-align: center;
 }
+
+@media screen and (max-width: 1400px) {
+    .dev-icons {
+        font-size: 65px;
+    }
+    #skills h4 {
+        font-size: 20px;
+    }
+}
