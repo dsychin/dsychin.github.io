@@ -67,3 +67,19 @@ body {
 #skill3 {
     background-color: rgb(233, 233, 233);
 }
+
+#skills h4 {
+    padding-bottom: 40px;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#skills i {
+    padding: 10px;
+}
+
+#skills i:hover {
+    color: white;
+    background-color: rgb(43, 43, 43);
+}
