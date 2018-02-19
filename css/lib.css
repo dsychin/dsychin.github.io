@@ -1,0 +1,2788 @@
+/* devicon */
+
+@font-face {
+    font-family: devicon;
+    src: url(fonts/devicon.eot?-hdf3wh);
+    src: url(fonts/devicon.eot?#iefix-hdf3wh) format('embedded-opentype'), url(fonts/devicon.woff?-hdf3wh) format('woff'), url(fonts/devicon.ttf?-hdf3wh) format('truetype'), url(fonts/devicon.svg?-hdf3wh#devicon) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=" devicon-"],
+[class^=devicon-] {
+    font-family: devicon;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.devicon-sketch-line-wordmark:before {
+    content: "\e94c"
+}
+
+.devicon-sketch-line:before {
+    content: "\e94d"
+}
+
+.devicon-npm-original-wordmark:before {
+    content: "\e952"
+}
+
+.devicon-ionic-original-wordmark:before {
+    content: "\e953"
+}
+
+.devicon-ionic-original:before {
+    content: "\e954"
+}
+
+.devicon-ember-original-wordmark:before {
+    content: "\e955"
+}
+
+.devicon-electron-original-wordmark:before {
+    content: "\e956"
+}
+
+.devicon-electron-original:before {
+    content: "\e957"
+}
+
+.devicon-vagrant-plain-wordmark:before {
+    content: "\e94e"
+}
+
+.devicon-vagrant-plain:before {
+    content: "\e94f"
+}
+
+.devicon-yarn-plain-wordmark:before {
+    content: "\e950"
+}
+
+.devicon-yarn-plain:before {
+    content: "\e951"
+}
+
+.devicon-handlebars-plain-wordmark:before {
+    content: "\e94a"
+}
+
+.devicon-handlebars-plain:before {
+    content: "\e94b"
+}
+
+.devicon-couchdb-plain-wordmark:before {
+    content: "\e948"
+}
+
+.devicon-couchdb-plain:before {
+    content: "\e949"
+}
+
+.devicon-behance-plain-wordmark:before {
+    content: "\e943"
+}
+
+.devicon-behance-plain:before {
+    content: "\e945"
+}
+
+.devicon-linkedin-plain-wordmark:before {
+    content: "\e946"
+}
+
+.devicon-linkedin-plain:before {
+    content: "\e947"
+}
+
+.devicon-ceylon-plain-wordmark:before {
+    content: "\e943"
+}
+
+.devicon-ceylon-plain:before {
+    content: "\e944"
+}
+
+.devicon-elm-plain-wordmark:before {
+    content: "\e941"
+}
+
+.devicon-elm-plain:before {
+    content: "\e942"
+}
+
+.devicon-cakephp-plain-wordmark:before {
+    content: "\e93f"
+}
+
+.devicon-cakephp-plain:before {
+    content: "\e940"
+}
+
+.devicon-stylus-original:before {
+    content: "\e93e"
+}
+
+.devicon-express-original-wordmark:before {
+    content: "\e93c"
+}
+
+.devicon-express-original:before {
+    content: "\e93d"
+}
+
+.devicon-devicon-plain-wordmark:before {
+    content: "\e93a"
+}
+
+.devicon-devicon-plain:before {
+    content: "\e93b"
+}
+
+.devicon-intellij-plain-wordmark:before {
+    content: "\e932"
+}
+
+.devicon-intellij-plain:before {
+    content: "\e933"
+}
+
+.devicon-pycharm-plain-wordmark:before {
+    content: "\e934"
+}
+
+.devicon-pycharm-plain:before {
+    content: "\e935"
+}
+
+.devicon-rubymine-plain-wordmark:before {
+    content: "\e936"
+}
+
+.devicon-rubymine-plain:before {
+    content: "\e937"
+}
+
+.devicon-webstorm-plain-wordmark:before {
+    content: "\e938"
+}
+
+.devicon-webstorm-plain:before {
+    content: "\e939"
+}
+
+.devicon-tomcat-line-wordmark:before {
+    content: "\e92c"
+}
+
+.devicon-tomcat-line:before {
+    content: "\e92d"
+}
+
+.devicon-vuejs-line-wordmark:before {
+    content: "\e92e"
+}
+
+.devicon-vuejs-line:before {
+    content: "\e92f"
+}
+
+.devicon-vuejs-plain-wordmark:before {
+    content: "\e930"
+}
+
+.devicon-vuejs-plain:before {
+    content: "\e931"
+}
+
+.devicon-swift-plain-wordmark:before {
+    content: "\e92a"
+}
+
+.devicon-swift-plain:before {
+    content: "\e92b"
+}
+
+.devicon-webpack-plain-wordmark:before {
+    content: "\e928"
+}
+
+.devicon-webpack-plain:before {
+    content: "\e929"
+}
+
+.devicon-visualstudio-plain-wordmark:before {
+    content: "\e926"
+}
+
+.devicon-visualstudio-plain:before {
+    content: "\e927"
+}
+
+.devicon-slack-plain-wordmark:before {
+    content: "\e924"
+}
+
+.devicon-slack-plain:before {
+    content: "\e925"
+}
+
+.devicon-facebook-original:before,
+.devicon-facebook-plain:before {
+    content: "\e91c"
+}
+
+.devicon-typescript-original:before,
+.devicon-typescript-plain:before {
+    content: "\e920"
+}
+
+.devicon-babel-original:before,
+.devicon-babel-plain:before {
+    content: "\e921"
+}
+
+.devicon-mocha-plain:before {
+    content: "\e919"
+}
+
+.devicon-jasmine-plain-wordmark:before {
+    content: "\e91b"
+}
+
+.devicon-jasmine-plain:before {
+    content: "\e91a"
+}
+
+.devicon-gatling-plain-wordmark:before {
+    content: "\e918"
+}
+
+.devicon-gatling-plain:before {
+    content: "\e917"
+}
+
+.devicon-ssh-original-wordmark:before,
+.devicon-ssh-plain-wordmark:before {
+    content: "\e916"
+}
+
+.devicon-ssh-original:before,
+.devicon-ssh-plain:before {
+    content: "\e915"
+}
+
+.devicon-sourcetree-original-wordmark:before,
+.devicon-sourcetree-plain-wordmark:before {
+    content: "\e914"
+}
+
+.devicon-sourcetree-original:before,
+.devicon-sourcetree-plain:before {
+    content: "\e913"
+}
+
+.devicon-phpstorm-plain-wordmark:before {
+    content: "\e912"
+}
+
+.devicon-phpstorm-plain:before {
+    content: "\e911"
+}
+
+.devicon-protractor-plain-wordmark:before {
+    content: "\e901"
+}
+
+.devicon-protractor-plain:before {
+    content: "\e900"
+}
+
+.devicon-gradle-plain-wordmark:before {
+    content: "\e8f1"
+}
+
+.devicon-gradle-plain:before {
+    content: "\e902"
+}
+
+.devicon-cucumber-plain-wordmark:before {
+    content: "\e905"
+}
+
+.devicon-cucumber-plain:before {
+    content: "\e904"
+}
+
+.devicon-jeet-plain-wordmark:before {
+    content: "\e906"
+}
+
+.devicon-jeet-plain:before {
+    content: "\e903"
+}
+
+.devicon-gitlab-plain-wordmark:before {
+    content: "\e908"
+}
+
+.devicon-gitlab-plain:before {
+    content: "\e907"
+}
+
+.devicon-github-original-wordmark:before,
+.devicon-github-plain-wordmark:before {
+    content: "\e90a"
+}
+
+.devicon-github-original:before,
+.devicon-github-plain:before {
+    content: "\e909"
+}
+
+.devicon-d3js-plain:before {
+    content: "\e90c"
+}
+
+.devicon-confluence-original-wordmark:before,
+.devicon-confluence-plain-wordmark:before {
+    content: "\e90e"
+}
+
+.devicon-confluence-original:before,
+.devicon-confluence-plain:before {
+    content: "\e90d"
+}
+
+.devicon-bitbucket-original-wordmark:before,
+.devicon-bitbucket-plain-wordmark:before {
+    content: "\e910"
+}
+
+.devicon-bitbucket-original:before,
+.devicon-bitbucket-plain:before {
+    content: "\e90f"
+}
+
+.devicon-safari-line-wordmark:before {
+    content: "\e632"
+}
+
+.devicon-safari-line:before {
+    content: "\e63a"
+}
+
+.devicon-safari-plain-wordmark:before {
+    content: "\e63b"
+}
+
+.devicon-safari-plain:before {
+    content: "\e63c"
+}
+
+.devicon-jetbrains-line-wordmark:before,
+.devicon-jetbrains-line:before,
+.devicon-jetbrains-plain-wordmark:before,
+.devicon-jetbrains-plain:before {
+    content: "\e63d"
+}
+
+.devicon-django-line-wordmark:before,
+.devicon-django-line:before {
+    content: "\e63e"
+}
+
+.devicon-django-plain-wordmark:before,
+.devicon-django-plain:before {
+    content: "\e63f"
+}
+
+.devicon-gimp-plain:before {
+    content: "\e633"
+}
+
+.devicon-redhat-plain-wordmark:before {
+    content: "\e62a"
+}
+
+.devicon-redhat-plain:before {
+    content: "\e62b"
+}
+
+.devicon-cplusplus-line-wordmark:before,
+.devicon-cplusplus-line:before {
+    content: "\e634"
+}
+
+.devicon-cplusplus-plain-wordmark:before,
+.devicon-cplusplus-plain:before {
+    content: "\e635"
+}
+
+.devicon-csharp-line-wordmark:before,
+.devicon-csharp-line:before {
+    content: "\e636"
+}
+
+.devicon-csharp-plain-wordmark:before,
+.devicon-csharp-plain:before {
+    content: "\e637"
+}
+
+.devicon-c-line-wordmark:before,
+.devicon-c-line:before {
+    content: "\e638"
+}
+
+.devicon-c-plain-wordmark:before,
+.devicon-c-plain:before {
+    content: "\e639"
+}
+
+.devicon-nodewebkit-line-wordmark:before {
+    content: "\e611"
+}
+
+.devicon-nodewebkit-line:before {
+    content: "\e612"
+}
+
+.devicon-nodewebkit-plain-wordmark:before {
+    content: "\e613"
+}
+
+.devicon-nodewebkit-plain:before {
+    content: "\e614"
+}
+
+.devicon-nginx-original-wordmark:before,
+.devicon-nginx-original:before,
+.devicon-nginx-plain-wordmark:before,
+.devicon-nginx-plain:before {
+    content: "\e615"
+}
+
+.devicon-erlang-plain-wordmark:before {
+    content: "\e616"
+}
+
+.devicon-erlang-plain:before {
+    content: "\e617"
+}
+
+.devicon-doctrine-line-wordmark:before {
+    content: "\e618"
+}
+
+.devicon-doctrine-line:before {
+    content: "\e619"
+}
+
+.devicon-doctrine-plain-wordmark:before {
+    content: "\e61a"
+}
+
+.devicon-doctrine-plain:before {
+    content: "\e625"
+}
+
+.devicon-apache-line-wordmark:before {
+    content: "\e626"
+}
+
+.devicon-apache-line:before {
+    content: "\e627"
+}
+
+.devicon-apache-plain-wordmark:before {
+    content: "\e628"
+}
+
+.devicon-apache-plain:before {
+    content: "\e629"
+}
+
+.devicon-go-line:before {
+    content: "\e610"
+}
+
+.devicon-redis-plain-wordmark:before {
+    content: "\e606"
+}
+
+.devicon-redis-plain:before {
+    content: "\e607"
+}
+
+.devicon-meteor-plain-wordmark:before {
+    content: "\e608"
+}
+
+.devicon-meteor-plain:before {
+    content: "\e609"
+}
+
+.devicon-heroku-line-wordmark:before,
+.devicon-heroku-original-wordmark:before {
+    content: "\e60a"
+}
+
+.devicon-heroku-line:before,
+.devicon-heroku-original:before {
+    content: "\e60b"
+}
+
+.devicon-heroku-plain-wordmark:before {
+    content: "\e60c"
+}
+
+.devicon-heroku-plain:before {
+    content: "\e60f"
+}
+
+.devicon-go-plain:before {
+    content: "\e61b"
+}
+
+.devicon-docker-plain-wordmark:before {
+    content: "\e61e"
+}
+
+.devicon-docker-plain:before {
+    content: "\e61f"
+}
+
+.devicon-amazonwebservices-original:before,
+.devicon-amazonwebservices-plain:before {
+    content: "\e603"
+}
+
+.devicon-amazonwebservices-plain-wordmark:before {
+    content: "\e604"
+}
+
+.devicon-android-plain-wordmark:before {
+    content: "\e60d"
+}
+
+.devicon-android-plain:before {
+    content: "\e60e"
+}
+
+.devicon-angularjs-plain-wordmark:before {
+    content: "\e61c"
+}
+
+.devicon-angularjs-plain:before {
+    content: "\e61d"
+}
+
+.devicon-appcelerator-original:before,
+.devicon-appcelerator-plain:before {
+    content: "\e620"
+}
+
+.devicon-appcelerator-plain-wordmark:before {
+    content: "\e621"
+}
+
+.devicon-apple-original:before,
+.devicon-apple-plain:before {
+    content: "\e622"
+}
+
+.devicon-atom-original-wordmark:before,
+.devicon-atom-plain-wordmark:before {
+    content: "\e623"
+}
+
+.devicon-atom-original:before,
+.devicon-atom-plain:before {
+    content: "\e624"
+}
+
+.devicon-backbonejs-plain-wordmark:before {
+    content: "\e62c"
+}
+
+.devicon-backbonejs-plain:before {
+    content: "\e62d"
+}
+
+.devicon-bootstrap-plain-wordmark:before {
+    content: "\e62e"
+}
+
+.devicon-bootstrap-plain:before {
+    content: "\e62f"
+}
+
+.devicon-bower-line-wordmark:before {
+    content: "\e630"
+}
+
+.devicon-bower-line:before {
+    content: "\e631"
+}
+
+.devicon-bower-plain-wordmark:before {
+    content: "\e64e"
+}
+
+.devicon-bower-plain:before {
+    content: "\e64f"
+}
+
+.devicon-chrome-plain-wordmark:before {
+    content: "\e665"
+}
+
+.devicon-chrome-plain:before {
+    content: "\e666"
+}
+
+.devicon-codeigniter-plain-wordmark:before {
+    content: "\e667"
+}
+
+.devicon-codeigniter-plain:before {
+    content: "\e668"
+}
+
+.devicon-coffeescript-original-wordmark:before,
+.devicon-coffeescript-plain-wordmark:before {
+    content: "\e669"
+}
+
+.devicon-coffeescript-original:before,
+.devicon-coffeescript-plain:before {
+    content: "\e66a"
+}
+
+.devicon-css3-plain-wordmark:before {
+    content: "\e678"
+}
+
+.devicon-css3-plain:before {
+    content: "\e679"
+}
+
+.devicon-debian-plain-wordmark:before {
+    content: "\e67e"
+}
+
+.devicon-debian-plain:before {
+    content: "\e67f"
+}
+
+.devicon-dot-net-plain-wordmark:before {
+    content: "\e6d3"
+}
+
+.devicon-dot-net-plain:before {
+    content: "\e6d4"
+}
+
+.devicon-drupal-plain-wordmark:before {
+    content: "\e6e2"
+}
+
+.devicon-drupal-plain:before {
+    content: "\e6e3"
+}
+
+.devicon-firefox-plain-wordmark:before {
+    content: "\e75d"
+}
+
+.devicon-firefox-plain:before {
+    content: "\e75e"
+}
+
+.devicon-foundation-plain-wordmark:before {
+    content: "\e7a2"
+}
+
+.devicon-foundation-plain:before {
+    content: "\e7a3"
+}
+
+.devicon-git-plain-wordmark:before {
+    content: "\e7a7"
+}
+
+.devicon-git-plain:before {
+    content: "\e7a8"
+}
+
+.devicon-google-original-wordmark:before,
+.devicon-google-plain-wordmark:before {
+    content: "\e91d"
+}
+
+.devicon-google-original:before,
+.devicon-google-plain:before {
+    content: "\e91e"
+}
+
+.devicon-grunt-line-wordmark:before {
+    content: "\e7a9"
+}
+
+.devicon-grunt-line:before {
+    content: "\e7aa"
+}
+
+.devicon-grunt-plain-wordmark:before {
+    content: "\e7ea"
+}
+
+.devicon-grunt-plain:before {
+    content: "\e7eb"
+}
+
+.devicon-gulp-plain:before {
+    content: "\e7ec"
+}
+
+.devicon-html5-plain-wordmark:before {
+    content: "\e7f6"
+}
+
+.devicon-html5-plain:before {
+    content: "\e7f7"
+}
+
+.devicon-ie10-original:before,
+.devicon-ie10-plain:before {
+    content: "\e7f8"
+}
+
+.devicon-illustrator-line:before {
+    content: "\e7f9"
+}
+
+.devicon-illustrator-plain:before {
+    content: "\e7fa"
+}
+
+.devicon-inkscape-plain-wordmark:before {
+    content: "\e834"
+}
+
+.devicon-inkscape-plain:before {
+    content: "\e835"
+}
+
+.devicon-java-plain-wordmark:before {
+    content: "\e841"
+}
+
+.devicon-java-plain:before {
+    content: "\e842"
+}
+
+.devicon-javascript-plain:before {
+    content: "\e845"
+}
+
+.devicon-jquery-plain-wordmark:before {
+    content: "\e849"
+}
+
+.devicon-jquery-plain:before {
+    content: "\e84a"
+}
+
+.devicon-krakenjs-plain-wordmark:before {
+    content: "\e84f"
+}
+
+.devicon-krakenjs-plain:before {
+    content: "\e850"
+}
+
+.devicon-laravel-plain-wordmark:before {
+    content: "\e851"
+}
+
+.devicon-laravel-plain:before {
+    content: "\e852"
+}
+
+.devicon-less-plain-wordmark:before {
+    content: "\e853"
+}
+
+.devicon-linux-plain:before {
+    content: "\eb1c"
+}
+
+.devicon-mongodb-plain-wordmark:before {
+    content: "\eb43"
+}
+
+.devicon-mongodb-plain:before {
+    content: "\eb44"
+}
+
+.devicon-moodle-plain-wordmark:before {
+    content: "\eb5a"
+}
+
+.devicon-moodle-plain:before {
+    content: "\eb5b"
+}
+
+.devicon-mysql-plain-wordmark:before {
+    content: "\eb60"
+}
+
+.devicon-mysql-plain:before {
+    content: "\eb61"
+}
+
+.devicon-nodejs-plain-wordmark:before {
+    content: "\eb69"
+}
+
+.devicon-nodejs-plain:before {
+    content: "\eb6a"
+}
+
+.devicon-oracle-original:before,
+.devicon-oracle-plain:before {
+    content: "\eb6b"
+}
+
+.devicon-photoshop-line:before {
+    content: "\eb6c"
+}
+
+.devicon-photoshop-plain:before {
+    content: "\eb6d"
+}
+
+.devicon-php-plain:before {
+    content: "\eb71"
+}
+
+.devicon-postgresql-plain-wordmark:before {
+    content: "\eb7c"
+}
+
+.devicon-postgresql-plain:before {
+    content: "\eb7d"
+}
+
+.devicon-python-plain-wordmark:before {
+    content: "\eb88"
+}
+
+.devicon-python-plain:before {
+    content: "\eb89"
+}
+
+.devicon-rails-plain-wordmark:before {
+    content: "\eba2"
+}
+
+.devicon-rails-plain:before {
+    content: "\eba3"
+}
+
+.devicon-react-original-wordmark:before,
+.devicon-react-plain-wordmark:before {
+    content: "\e600"
+}
+
+.devicon-react-original:before,
+.devicon-react-plain:before {
+    content: "\e601"
+}
+
+.devicon-ruby-plain-wordmark:before {
+    content: "\ebc9"
+}
+
+.devicon-ruby-plain:before {
+    content: "\ebca"
+}
+
+.devicon-sass-original:before,
+.devicon-sass-plain:before {
+    content: "\ebcb"
+}
+
+.devicon-sequelize-original-wordmark:before,
+.devicon-sequelize-plain-wordmark:before {
+    content: "\e922"
+}
+
+.devicon-sequelize-original:before,
+.devicon-sequelize-plain:before {
+    content: "\e923"
+}
+
+.devicon-symfony-original-wordmark:before,
+.devicon-symfony-plain-wordmark:before {
+    content: "\e602"
+}
+
+.devicon-symfony-original:before,
+.devicon-symfony-plain:before {
+    content: "\e605"
+}
+
+.devicon-travis-plain-wordmark:before {
+    content: "\ebcc"
+}
+
+.devicon-travis-plain:before {
+    content: "\ebcd"
+}
+
+.devicon-trello-plain-wordmark:before {
+    content: "\ebce"
+}
+
+.devicon-trello-plain:before {
+    content: "\ebcf"
+}
+
+.devicon-twitter-original:before,
+.devicon-twitter-plain:before {
+    content: "\e91f"
+}
+
+.devicon-ubuntu-plain-wordmark:before {
+    content: "\ebd0"
+}
+
+.devicon-ubuntu-plain:before {
+    content: "\ebd1"
+}
+
+.devicon-vim-plain:before {
+    content: "\ebf3"
+}
+
+.devicon-windows8-original-wordmark:before,
+.devicon-windows8-plain-wordmark:before {
+    content: "\ebf4"
+}
+
+.devicon-windows8-original:before,
+.devicon-windows8-plain:before {
+    content: "\ebf5"
+}
+
+.devicon-wordpress-plain-wordmark:before {
+    content: "\ebfd"
+}
+
+.devicon-wordpress-plain:before {
+    content: "\ebfe"
+}
+
+.devicon-yii-plain-wordmark:before {
+    content: "\ec01"
+}
+
+.devicon-yii-plain:before {
+    content: "\ec02"
+}
+
+.devicon-zend-plain-wordmark:before {
+    content: "\ec03"
+}
+
+.devicon-zend-plain:before {
+    content: "\ec04"
+}
+
+.devicon-sketch-line-wordmark.colored,
+.devicon-sketch-line.colored {
+    color: #fdad00
+}
+
+.devicon-npm-original-wordmark.colored {
+    color: #cb3837
+}
+
+.devicon-ionic-original-wordmark.colored,
+.devicon-ionic-original.colored {
+    color: #4e8ef7
+}
+
+.devicon-ember-original-wordmark.colored {
+    color: #dd3f24
+}
+
+.devicon-electron-original-wordmark.colored,
+.devicon-electron-original.colored {
+    color: #47848f
+}
+
+.devicon-vagrant-plain-wordmark.colored,
+.devicon-vagrant-plain.colored {
+    color: #127eff
+}
+
+.devicon-yarn-plain-wordmark.colored,
+.devicon-yarn-plain.colored {
+    color: #2c8ebb
+}
+
+.devicon-handlebars-plain-wordmark.colored,
+.devicon-handlebars-plain.colored {
+    color: #000
+}
+
+.devicon-couchdb-plain-wordmark.colored,
+.devicon-couchdb-plain.colored {
+    color: #e42528
+}
+
+.devicon-behance-plain-wordmark.colored,
+.devicon-behance-plain.colored {
+    color: #0071e0
+}
+
+.devicon-linkedin-plain-wordmark.colored,
+.devicon-linkedin-plain.colored {
+    color: #0076b2
+}
+
+.devicon-ceylon-plain-wordmark.colored,
+.devicon-ceylon-plain.colored {
+    color: #AB710A
+}
+
+.devicon-elm-plain-wordmark.colored,
+.devicon-elm-plain.colored {
+    color: #34495E
+}
+
+.devicon-cakephp-plain-wordmark.colored,
+.devicon-cakephp-plain.colored {
+    color: #D43D44
+}
+
+.devicon-stylus-original.colored {
+    color: #333
+}
+
+.devicon-express-original-wordmark.colored,
+.devicon-express-original.colored {
+    color: #444
+}
+
+.devicon-devicon-plain-wordmark.colored,
+.devicon-devicon-plain.colored {
+    color: #60BE86
+}
+
+.devicon-intellij-plain-wordmark.colored,
+.devicon-intellij-plain.colored {
+    color: #136BA2
+}
+
+.devicon-pycharm-plain-wordmark.colored,
+.devicon-pycharm-plain.colored {
+    color: #4D8548
+}
+
+.devicon-rubymine-plain-wordmark.colored,
+.devicon-rubymine-plain.colored {
+    color: #C12C4C
+}
+
+.devicon-webstorm-plain-wordmark.colored,
+.devicon-webstorm-plain.colored {
+    color: #2788B5
+}
+
+.devicon-tomcat-line-wordmark.colored,
+.devicon-tomcat-line.colored {
+    color: #D1A41A
+}
+
+.devicon-vuejs-line-wordmark.colored,
+.devicon-vuejs-line.colored,
+.devicon-vuejs-plain-wordmark.colored,
+.devicon-vuejs-plain.colored {
+    color: #41B883
+}
+
+.devicon-swift-plain-wordmark.colored,
+.devicon-swift-plain.colored {
+    color: #F05138
+}
+
+.devicon-webpack-plain-wordmark.colored,
+.devicon-webpack-plain.colored {
+    color: #1C78C0
+}
+
+.devicon-visualstudio-plain-wordmark.colored,
+.devicon-visualstudio-plain.colored {
+    color: #68217A
+}
+
+.devicon-slack-plain-wordmark.colored,
+.devicon-slack-plain.colored {
+    color: #2D333A
+}
+
+.devicon-gatling-plain-wordmark.colored,
+.devicon-gatling-plain.colored {
+    color: #E77500
+}
+
+.devicon-ssh-original-wordmark.colored,
+.devicon-ssh-original.colored,
+.devicon-ssh-plain-wordmark.colored,
+.devicon-ssh-plain.colored {
+    color: #231F20
+}
+
+.devicon-sourcetree-original-wordmark.colored,
+.devicon-sourcetree-original.colored,
+.devicon-sourcetree-plain-wordmark.colored,
+.devicon-sourcetree-plain.colored {
+    color: #205081
+}
+
+.devicon-phpstorm-plain-wordmark.colored,
+.devicon-phpstorm-plain.colored {
+    color: #5058A6
+}
+
+.devicon-protractor-plain-wordmark.colored,
+.devicon-protractor-plain.colored {
+    color: #b7111d
+}
+
+.devicon-cucumber-plain-wordmark.colored,
+.devicon-cucumber-plain.colored {
+    color: #00a818
+}
+
+.devicon-gradle-plain-wordmark.colored,
+.devicon-gradle-plain.colored {
+    color: #02303a
+}
+
+.devicon-jeet-plain-wordmark.colored,
+.devicon-jeet-plain.colored {
+    color: #FF664A
+}
+
+.devicon-gitlab-plain-wordmark.colored,
+.devicon-gitlab-plain.colored {
+    color: #E24329
+}
+
+.devicon-github-original-wordmark.colored,
+.devicon-github-original.colored,
+.devicon-github-plain-wordmark.colored,
+.devicon-github-plain.colored {
+    color: #181616
+}
+
+.devicon-d3js-plain.colored {
+    color: #f7974e
+}
+
+.devicon-bitbucket-original-wordmark.colored,
+.devicon-bitbucket-original.colored,
+.devicon-bitbucket-plain-wordmark.colored,
+.devicon-bitbucket-plain.colored,
+.devicon-confluence-original-wordmark.colored,
+.devicon-confluence-original.colored,
+.devicon-confluence-plain-wordmark.colored,
+.devicon-confluence-plain.colored {
+    color: #205081
+}
+
+.devicon-amazonwebservices-original.colored,
+.devicon-amazonwebservices-plain-wordmark.colored,
+.devicon-amazonwebservices-plain.colored {
+    color: #F7A80D
+}
+
+.devicon-android-plain-wordmark.colored,
+.devicon-android-plain.colored {
+    color: #A4C439
+}
+
+.devicon-angularjs-plain-wordmark.colored,
+.devicon-angularjs-plain.colored {
+    color: #c4473a
+}
+
+.devicon-apache-line-wordmark.colored,
+.devicon-apache-line.colored,
+.devicon-apache-plain-wordmark.colored,
+.devicon-apache-plain.colored {
+    color: #303284
+}
+
+.devicon-appcelerator-original.colored,
+.devicon-appcelerator-plain-wordmark.colored,
+.devicon-appcelerator-plain.colored {
+    color: #ac162c
+}
+
+.devicon-apple-original.colored,
+.devicon-apple-plain.colored {
+    color: #000
+}
+
+.devicon-atom-original-wordmark.colored,
+.devicon-atom-original.colored,
+.devicon-atom-plain-wordmark.colored,
+.devicon-atom-plain.colored {
+    color: #67595D
+}
+
+.devicon-babel-original.colored,
+.devicon-babel-plain.colored {
+    color: #f9dc3e
+}
+
+.devicon-backbonejs-plain-wordmark.colored,
+.devicon-backbonejs-plain.colored {
+    color: #002A41
+}
+
+.devicon-bootstrap-plain-wordmark.colored,
+.devicon-bootstrap-plain.colored {
+    color: #59407f
+}
+
+.devicon-bower-line-wordmark.colored,
+.devicon-bower-line.colored,
+.devicon-bower-plain-wordmark.colored,
+.devicon-bower-plain.colored {
+    color: #ef5734
+}
+
+.devicon-c-line-wordmark.colored,
+.devicon-c-line.colored,
+.devicon-c-plain-wordmark.colored,
+.devicon-c-plain.colored {
+    color: #03599c
+}
+
+.devicon-chrome-plain-wordmark.colored,
+.devicon-chrome-plain.colored {
+    color: #ce4e4e
+}
+
+.devicon-codeigniter-plain-wordmark.colored,
+.devicon-codeigniter-plain.colored {
+    color: #ee4323
+}
+
+.devicon-coffeescript-original-wordmark.colored,
+.devicon-coffeescript-original.colored,
+.devicon-coffeescript-plain-wordmark.colored,
+.devicon-coffeescript-plain.colored {
+    color: #28334c
+}
+
+.devicon-cplusplus-line-wordmark.colored,
+.devicon-cplusplus-line.colored,
+.devicon-cplusplus-plain-wordmark.colored,
+.devicon-cplusplus-plain.colored {
+    color: #9c033a
+}
+
+.devicon-csharp-line-wordmark.colored,
+.devicon-csharp-line.colored,
+.devicon-csharp-plain-wordmark.colored,
+.devicon-csharp-plain.colored {
+    color: #68217a
+}
+
+.devicon-css3-plain-wordmark.colored,
+.devicon-css3-plain.colored {
+    color: #3d8fc6
+}
+
+.devicon-debian-plain-wordmark.colored,
+.devicon-debian-plain.colored {
+    color: #A80030
+}
+
+.devicon-django-line-wordmark.colored,
+.devicon-django-line.colored,
+.devicon-django-plain-wordmark.colored,
+.devicon-django-plain.colored {
+    color: #003A2B
+}
+
+.devicon-docker-plain-wordmark.colored,
+.devicon-docker-plain.colored {
+    color: #019bc6
+}
+
+.devicon-doctrine-line-wordmark.colored,
+.devicon-doctrine-line.colored,
+.devicon-doctrine-plain-wordmark.colored,
+.devicon-doctrine-plain.colored {
+    color: #f56d39
+}
+
+.devicon-dot-net-plain-wordmark.colored,
+.devicon-dot-net-plain.colored {
+    color: #1384c8
+}
+
+.devicon-drupal-plain-wordmark.colored,
+.devicon-drupal-plain.colored {
+    color: #0073BA
+}
+
+.devicon-erlang-plain-wordmark.colored,
+.devicon-erlang-plain.colored {
+    color: #a90533
+}
+
+.devicon-facebook-original.colored,
+.devicon-facebook-plain.colored {
+    color: #3d5a98
+}
+
+.devicon-firefox-plain-wordmark.colored,
+.devicon-firefox-plain.colored {
+    color: #DD732A
+}
+
+.devicon-foundation-plain-wordmark.colored,
+.devicon-foundation-plain.colored {
+    color: #008cba
+}
+
+.devicon-gimp-plain-wordmark.colored,
+.devicon-gimp-plain.colored {
+    color: #716955
+}
+
+.devicon-git-plain-wordmark.colored,
+.devicon-git-plain.colored {
+    color: #f34f29
+}
+
+.devicon-go-line.colored,
+.devicon-go-plain.colored {
+    color: #000
+}
+
+.devicon-google-original-wordmark.colored,
+.devicon-google-original.colored,
+.devicon-google-plain-wordmark.colored,
+.devicon-google-plain.colored {
+    color: #587dbd
+}
+
+.devicon-grunt-line-wordmark.colored,
+.devicon-grunt-line.colored,
+.devicon-grunt-plain-wordmark.colored,
+.devicon-grunt-plain.colored {
+    color: #fcaa1a
+}
+
+.devicon-gulp-plain.colored {
+    color: #eb4a4b
+}
+
+.devicon-heroku-line-wordmark.colored,
+.devicon-heroku-line.colored,
+.devicon-heroku-original-wordmark.colored,
+.devicon-heroku-original.colored,
+.devicon-heroku-plain-wordmark.colored,
+.devicon-heroku-plain.colored {
+    color: #6762a6
+}
+
+.devicon-html5-plain-wordmark.colored,
+.devicon-html5-plain.colored {
+    color: #e54d26
+}
+
+.devicon-ie10-original.colored,
+.devicon-ie10-plain.colored {
+    color: #1EBBEE
+}
+
+.devicon-illustrator-line.colored,
+.devicon-illustrator-plain.colored {
+    color: #faa625
+}
+
+.devicon-inkscape-plain-wordmark.colored,
+.devicon-inkscape-plain.colored {
+    color: #000
+}
+
+.devicon-java-plain-wordmark.colored,
+.devicon-java-plain.colored {
+    color: #EA2D2E
+}
+
+.devicon-jasmine-plain-wordmark.colored,
+.devicon-jasmine-plain.colored {
+    color: #8a4182
+}
+
+.devicon-javascript-plain.colored {
+    color: #f0db4f
+}
+
+.devicon-jetbrains-line-wordmark.colored,
+.devicon-jetbrains-line.colored,
+.devicon-jetbrains-plain-wordmark.colored,
+.devicon-jetbrains-plain.colored {
+    color: #F68B1F
+}
+
+.devicon-jquery-plain-wordmark.colored,
+.devicon-jquery-plain.colored {
+    color: #0769ad
+}
+
+.devicon-krakenjs-plain-wordmark.colored,
+.devicon-krakenjs-plain.colored {
+    color: #0081C2
+}
+
+.devicon-laravel-plain-wordmark.colored,
+.devicon-laravel-plain.colored {
+    color: #fd4f31
+}
+
+.devicon-less-plain-wordmark.colored {
+    color: #2a4d80
+}
+
+.devicon-linux-plain.colored {
+    color: #000
+}
+
+.devicon-meteor-plain-wordmark.colored,
+.devicon-meteor-plain.colored {
+    color: #df5052
+}
+
+.devicon-mocha-plain.colored {
+    color: #8d6748
+}
+
+.devicon-mongodb-plain-wordmark.colored,
+.devicon-mongodb-plain.colored {
+    color: #4FAA41
+}
+
+.devicon-moodle-plain-wordmark.colored,
+.devicon-moodle-plain.colored {
+    color: #F7931E
+}
+
+.devicon-mysql-plain-wordmark.colored,
+.devicon-mysql-plain.colored {
+    color: #00618a
+}
+
+.devicon-nginx-original-wordmark.colored,
+.devicon-nginx-original.colored,
+.devicon-nginx-plain-wordmark.colored,
+.devicon-nginx-plain.colored {
+    color: #090
+}
+
+.devicon-nodejs-plain-wordmark.colored,
+.devicon-nodejs-plain.colored {
+    color: #83CD29
+}
+
+.devicon-nodewebkit-line-wordmark.colored,
+.devicon-nodewebkit-line.colored,
+.devicon-nodewebkit-plain-wordmark.colored,
+.devicon-nodewebkit-plain.colored {
+    color: #3d3b47
+}
+
+.devicon-oracle-original.colored,
+.devicon-oracle-plain-wordmark.colored,
+.devicon-oracle-plain.colored {
+    color: #EA1B22
+}
+
+.devicon-photoshop-line.colored,
+.devicon-photoshop-plain.colored {
+    color: #80b5e2
+}
+
+.devicon-php-plain.colored {
+    color: #6181b6
+}
+
+.devicon-postgresql-plain-wordmark.colored,
+.devicon-postgresql-plain.colored {
+    color: #336791
+}
+
+.devicon-python-plain-wordmark.colored,
+.devicon-python-plain.colored {
+    color: #ffd845
+}
+
+.devicon-rails-plain-wordmark.colored,
+.devicon-rails-plain.colored {
+    color: #a62c46
+}
+
+.devicon-ruby-plain-wordmark.colored,
+.devicon-ruby-plain.colored {
+    color: #d91404
+}
+
+.devicon-safari-line-wordmark.colored,
+.devicon-safari-line.colored,
+.devicon-safari-plain-wordmark.colored,
+.devicon-safari-plain.colored {
+    color: #1B88CA
+}
+
+.devicon-react-original-wordmark.colored,
+.devicon-react-original.colored,
+.devicon-react-plain-wordmark.colored,
+.devicon-react-plain.colored {
+    color: #61dafb
+}
+
+.devicon-redhat-original-wordmark.colored,
+.devicon-redhat-original.colored,
+.devicon-redhat-plain-wordmark.colored,
+.devicon-redhat-plain.colored {
+    color: #e93442
+}
+
+.devicon-redis-plain-wordmark.colored,
+.devicon-redis-plain.colored {
+    color: #d82c20
+}
+
+.devicon-sass-original.colored,
+.devicon-sass-plain-wordmark.colored,
+.devicon-sass-plain.colored {
+    color: #c69
+}
+
+.devicon-sequelize-original-wordmark.colored,
+.devicon-sequelize-original.colored,
+.devicon-sequelize-plain-wordmark.colored,
+.devicon-sequelize-plain.colored {
+    color: #3b4b72
+}
+
+.devicon-symfony-original-wordmark.colored,
+.devicon-symfony-original.colored,
+.devicon-symfony-plain-wordmark.colored,
+.devicon-symfony-plain.colored {
+    color: #1A171B
+}
+
+.devicon-travis-plain-wordmark.colored,
+.devicon-travis-plain.colored {
+    color: #bb2031
+}
+
+.devicon-trello-plain-wordmark.colored,
+.devicon-trello-plain.colored {
+    color: #23719f
+}
+
+.devicon-twitter-original.colored,
+.devicon-twitter-plain.colored {
+    color: #1da1f2
+}
+
+.devicon-typescript-original.colored,
+.devicon-typescript-plain.colored {
+    color: #007acc
+}
+
+.devicon-ubuntu-plain-wordmark.colored,
+.devicon-ubuntu-plain.colored {
+    color: #dd4814
+}
+
+.devicon-vim-plain.colored {
+    color: #179a33
+}
+
+.devicon-windows8-original-wordmark.colored,
+.devicon-windows8-original.colored,
+.devicon-windows8-plain-wordmark.colored,
+.devicon-windows8-plain.colored {
+    color: #00adef
+}
+
+.devicon-wordpress-plain-wordmark.colored,
+.devicon-wordpress-plain.colored {
+    color: #494949
+}
+
+.devicon-yii-plain-wordmark.colored,
+.devicon-yii-plain.colored {
+    color: #0073bb
+}
+
+.devicon-zend-plain-wordmark.colored,
+.devicon-zend-plain.colored {
+    color: #68b604
+}
+
+/*!
+Pure v1.0.0
+Copyright 2013 Yahoo!
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+
+/*!
+normalize.css v^3.0 | MIT License | git.io/normalize
+Copyright (c) Nicolas Gallagher and Jonathan Neal
+*/
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+.pure-button:focus,
+a:active,
+a:hover {
+    outline: 0
+}
+
+.pure-table,
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],
+template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b,
+optgroup,
+strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0
+}
+
+pre,
+textarea {
+    overflow: auto
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+.pure-button,
+input {
+    line-height: normal
+}
+
+button {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box
+}
+
+.pure-button,
+.pure-form input:not([type]),
+.pure-menu {
+    box-sizing: border-box
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend,
+td,
+th {
+    padding: 0
+}
+
+legend {
+    border: 0
+}
+
+.hidden,
+[hidden] {
+    display: none !important
+}
+
+.pure-img {
+    max-width: 100%;
+    height: auto;
+    display: block
+}
+
+.pure-g {
+    letter-spacing: -.31em;
+    text-rendering: optimizespeed;
+    font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start
+}
+
+@media all and (-ms-high-contrast:none),
+(-ms-high-contrast:active) {
+    table .pure-g {
+        display: block
+    }
+}
+
+.opera-only :-o-prefocus,
+.pure-g {
+    word-spacing: -.43em
+}
+
+.pure-u,
+.pure-u-1,
+.pure-u-1-1,
+.pure-u-1-12,
+.pure-u-1-2,
+.pure-u-1-24,
+.pure-u-1-3,
+.pure-u-1-4,
+.pure-u-1-5,
+.pure-u-1-6,
+.pure-u-1-8,
+.pure-u-10-24,
+.pure-u-11-12,
+.pure-u-11-24,
+.pure-u-12-24,
+.pure-u-13-24,
+.pure-u-14-24,
+.pure-u-15-24,
+.pure-u-16-24,
+.pure-u-17-24,
+.pure-u-18-24,
+.pure-u-19-24,
+.pure-u-2-24,
+.pure-u-2-3,
+.pure-u-2-5,
+.pure-u-20-24,
+.pure-u-21-24,
+.pure-u-22-24,
+.pure-u-23-24,
+.pure-u-24-24,
+.pure-u-3-24,
+.pure-u-3-4,
+.pure-u-3-5,
+.pure-u-3-8,
+.pure-u-4-24,
+.pure-u-4-5,
+.pure-u-5-12,
+.pure-u-5-24,
+.pure-u-5-5,
+.pure-u-5-6,
+.pure-u-5-8,
+.pure-u-6-24,
+.pure-u-7-12,
+.pure-u-7-24,
+.pure-u-7-8,
+.pure-u-8-24,
+.pure-u-9-24 {
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+    display: inline-block;
+    zoom: 1
+}
+
+.pure-g [class*=pure-u] {
+    font-family: sans-serif
+}
+
+.pure-u-1-24 {
+    width: 4.1667%
+}
+
+.pure-u-1-12,
+.pure-u-2-24 {
+    width: 8.3333%
+}
+
+.pure-u-1-8,
+.pure-u-3-24 {
+    width: 12.5%
+}
+
+.pure-u-1-6,
+.pure-u-4-24 {
+    width: 16.6667%
+}
+
+.pure-u-1-5 {
+    width: 20%
+}
+
+.pure-u-5-24 {
+    width: 20.8333%
+}
+
+.pure-u-1-4,
+.pure-u-6-24 {
+    width: 25%
+}
+
+.pure-u-7-24 {
+    width: 29.1667%
+}
+
+.pure-u-1-3,
+.pure-u-8-24 {
+    width: 33.3333%
+}
+
+.pure-u-3-8,
+.pure-u-9-24 {
+    width: 37.5%
+}
+
+.pure-u-2-5 {
+    width: 40%
+}
+
+.pure-u-10-24,
+.pure-u-5-12 {
+    width: 41.6667%
+}
+
+.pure-u-11-24 {
+    width: 45.8333%
+}
+
+.pure-u-1-2,
+.pure-u-12-24 {
+    width: 50%
+}
+
+.pure-u-13-24 {
+    width: 54.1667%
+}
+
+.pure-u-14-24,
+.pure-u-7-12 {
+    width: 58.3333%
+}
+
+.pure-u-3-5 {
+    width: 60%
+}
+
+.pure-u-15-24,
+.pure-u-5-8 {
+    width: 62.5%
+}
+
+.pure-u-16-24,
+.pure-u-2-3 {
+    width: 66.6667%
+}
+
+.pure-u-17-24 {
+    width: 70.8333%
+}
+
+.pure-u-18-24,
+.pure-u-3-4 {
+    width: 75%
+}
+
+.pure-u-19-24 {
+    width: 79.1667%
+}
+
+.pure-u-4-5 {
+    width: 80%
+}
+
+.pure-u-20-24,
+.pure-u-5-6 {
+    width: 83.3333%
+}
+
+.pure-u-21-24,
+.pure-u-7-8 {
+    width: 87.5%
+}
+
+.pure-u-11-12,
+.pure-u-22-24 {
+    width: 91.6667%
+}
+
+.pure-u-23-24 {
+    width: 95.8333%
+}
+
+.pure-u-1,
+.pure-u-1-1,
+.pure-u-24-24,
+.pure-u-5-5 {
+    width: 100%
+}
+
+.pure-button {
+    display: inline-block;
+    zoom: 1;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.pure-button::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}
+
+.pure-button-group {
+    letter-spacing: -.31em;
+    text-rendering: optimizespeed
+}
+
+.opera-only :-o-prefocus,
+.pure-button-group {
+    word-spacing: -.43em
+}
+
+.pure-button {
+    font-family: inherit;
+    font-size: 100%;
+    padding: .5em 1em;
+    color: #444;
+    color: rgba(0, 0, 0, .8);
+    border: 1px solid #999;
+    border: transparent;
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px
+}
+
+.pure-button-hover,
+.pure-button:focus,
+.pure-button:hover {
+    filter: alpha(opacity=90);
+    background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, .05) 40%, rgba(0, 0, 0, .1));
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, .05) 40%, rgba(0, 0, 0, .1))
+}
+
+.pure-button-active,
+.pure-button:active {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 0 6px rgba(0, 0, 0, .2) inset;
+    border-color: #000\9
+}
+
+.pure-button-disabled,
+.pure-button-disabled:active,
+.pure-button-disabled:focus,
+.pure-button-disabled:hover,
+.pure-button[disabled] {
+    border: none;
+    background-image: none;
+    filter: alpha(opacity=40);
+    opacity: .4;
+    cursor: not-allowed;
+    box-shadow: none;
+    pointer-events: none
+}
+
+.pure-button-hidden {
+    display: none
+}
+
+.pure-button-primary,
+.pure-button-selected,
+a.pure-button-primary,
+a.pure-button-selected {
+    background-color: #0078e7;
+    color: #fff
+}
+
+.pure-button-group .pure-button {
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+    margin: 0;
+    border-radius: 0;
+    border-right: 1px solid #111;
+    border-right: 1px solid rgba(0, 0, 0, .2)
+}
+
+.pure-button-group .pure-button:first-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px
+}
+
+.pure-button-group .pure-button:last-child {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-right: none
+}
+
+.pure-form input[type=password],
+.pure-form input[type=email],
+.pure-form input[type=url],
+.pure-form input[type=date],
+.pure-form input[type=month],
+.pure-form input[type=time],
+.pure-form input[type=datetime],
+.pure-form input[type=datetime-local],
+.pure-form input[type=week],
+.pure-form input[type=tel],
+.pure-form input[type=color],
+.pure-form input[type=number],
+.pure-form input[type=search],
+.pure-form input[type=text],
+.pure-form select,
+.pure-form textarea {
+    padding: .5em .6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    vertical-align: middle;
+    box-sizing: border-box
+}
+
+.pure-form input:not([type]) {
+    padding: .5em .6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px
+}
+
+.pure-form input[type=color] {
+    padding: .2em .5em
+}
+
+.pure-form input:not([type]):focus,
+.pure-form input[type=password]:focus,
+.pure-form input[type=email]:focus,
+.pure-form input[type=url]:focus,
+.pure-form input[type=date]:focus,
+.pure-form input[type=month]:focus,
+.pure-form input[type=time]:focus,
+.pure-form input[type=datetime]:focus,
+.pure-form input[type=datetime-local]:focus,
+.pure-form input[type=week]:focus,
+.pure-form input[type=tel]:focus,
+.pure-form input[type=color]:focus,
+.pure-form input[type=number]:focus,
+.pure-form input[type=search]:focus,
+.pure-form input[type=text]:focus,
+.pure-form select:focus,
+.pure-form textarea:focus {
+    outline: 0;
+    border-color: #129FEA
+}
+
+.pure-form input[type=file]:focus,
+.pure-form input[type=checkbox]:focus,
+.pure-form input[type=radio]:focus {
+    outline: #129FEA auto 1px
+}
+
+.pure-form .pure-checkbox,
+.pure-form .pure-radio {
+    margin: .5em 0;
+    display: block
+}
+
+.pure-form input:not([type])[disabled],
+.pure-form input[type=password][disabled],
+.pure-form input[type=email][disabled],
+.pure-form input[type=url][disabled],
+.pure-form input[type=date][disabled],
+.pure-form input[type=month][disabled],
+.pure-form input[type=time][disabled],
+.pure-form input[type=datetime][disabled],
+.pure-form input[type=datetime-local][disabled],
+.pure-form input[type=week][disabled],
+.pure-form input[type=tel][disabled],
+.pure-form input[type=color][disabled],
+.pure-form input[type=number][disabled],
+.pure-form input[type=search][disabled],
+.pure-form input[type=text][disabled],
+.pure-form select[disabled],
+.pure-form textarea[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3
+}
+
+.pure-form input[readonly],
+.pure-form select[readonly],
+.pure-form textarea[readonly] {
+    background-color: #eee;
+    color: #777;
+    border-color: #ccc
+}
+
+.pure-form input:focus:invalid,
+.pure-form select:focus:invalid,
+.pure-form textarea:focus:invalid {
+    color: #b94a48;
+    border-color: #e9322d
+}
+
+.pure-form input[type=file]:focus:invalid:focus,
+.pure-form input[type=checkbox]:focus:invalid:focus,
+.pure-form input[type=radio]:focus:invalid:focus {
+    outline-color: #e9322d
+}
+
+.pure-form select {
+    height: 2.25em;
+    border: 1px solid #ccc;
+    background-color: #fff
+}
+
+.pure-form select[multiple] {
+    height: auto
+}
+
+.pure-form label {
+    margin: .5em 0 .2em
+}
+
+.pure-form fieldset {
+    margin: 0;
+    padding: .35em 0 .75em;
+    border: 0
+}
+
+.pure-form legend {
+    display: block;
+    width: 100%;
+    padding: .3em 0;
+    margin-bottom: .3em;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.pure-form-stacked input:not([type]),
+.pure-form-stacked input[type=password],
+.pure-form-stacked input[type=email],
+.pure-form-stacked input[type=url],
+.pure-form-stacked input[type=date],
+.pure-form-stacked input[type=month],
+.pure-form-stacked input[type=time],
+.pure-form-stacked input[type=datetime],
+.pure-form-stacked input[type=datetime-local],
+.pure-form-stacked input[type=week],
+.pure-form-stacked input[type=tel],
+.pure-form-stacked input[type=color],
+.pure-form-stacked input[type=file],
+.pure-form-stacked input[type=number],
+.pure-form-stacked input[type=search],
+.pure-form-stacked input[type=text],
+.pure-form-stacked label,
+.pure-form-stacked select,
+.pure-form-stacked textarea {
+    display: block;
+    margin: .25em 0
+}
+
+.pure-form-aligned .pure-help-inline,
+.pure-form-aligned input,
+.pure-form-aligned select,
+.pure-form-aligned textarea,
+.pure-form-message-inline {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.pure-form-aligned textarea {
+    vertical-align: top
+}
+
+.pure-form-aligned .pure-control-group {
+    margin-bottom: .5em
+}
+
+.pure-form-aligned .pure-control-group label {
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    width: 10em;
+    margin: 0 1em 0 0
+}
+
+.pure-form-aligned .pure-controls {
+    margin: 1.5em 0 0 11em
+}
+
+.pure-form .pure-input-rounded,
+.pure-form input.pure-input-rounded {
+    border-radius: 2em;
+    padding: .5em 1em
+}
+
+.pure-form .pure-group fieldset {
+    margin-bottom: 10px
+}
+
+.pure-form .pure-group input,
+.pure-form .pure-group textarea {
+    display: block;
+    padding: 10px;
+    margin: 0 0 -1px;
+    border-radius: 0;
+    position: relative;
+    top: -1px
+}
+
+.pure-form .pure-group input:focus,
+.pure-form .pure-group textarea:focus {
+    z-index: 3
+}
+
+.pure-form .pure-group input:first-child,
+.pure-form .pure-group textarea:first-child {
+    top: 1px;
+    border-radius: 4px 4px 0 0;
+    margin: 0
+}
+
+.pure-form .pure-group input:first-child:last-child,
+.pure-form .pure-group textarea:first-child:last-child {
+    top: 1px;
+    border-radius: 4px;
+    margin: 0
+}
+
+.pure-form .pure-group input:last-child,
+.pure-form .pure-group textarea:last-child {
+    top: -2px;
+    border-radius: 0 0 4px 4px;
+    margin: 0
+}
+
+.pure-form .pure-group button {
+    margin: .35em 0
+}
+
+.pure-form .pure-input-1 {
+    width: 100%
+}
+
+.pure-form .pure-input-3-4 {
+    width: 75%
+}
+
+.pure-form .pure-input-2-3 {
+    width: 66%
+}
+
+.pure-form .pure-input-1-2 {
+    width: 50%
+}
+
+.pure-form .pure-input-1-3 {
+    width: 33%
+}
+
+.pure-form .pure-input-1-4 {
+    width: 25%
+}
+
+.pure-form .pure-help-inline,
+.pure-form-message-inline {
+    display: inline-block;
+    padding-left: .3em;
+    color: #666;
+    vertical-align: middle;
+    font-size: .875em
+}
+
+.pure-form-message {
+    display: block;
+    color: #666;
+    font-size: .875em
+}
+
+@media only screen and (max-width :480px) {
+    .pure-form button[type=submit] {
+        margin: .7em 0 0
+    }
+    .pure-form input:not([type]),
+    .pure-form input[type=password],
+    .pure-form input[type=email],
+    .pure-form input[type=url],
+    .pure-form input[type=date],
+    .pure-form input[type=month],
+    .pure-form input[type=time],
+    .pure-form input[type=datetime],
+    .pure-form input[type=datetime-local],
+    .pure-form input[type=week],
+    .pure-form input[type=tel],
+    .pure-form input[type=color],
+    .pure-form input[type=number],
+    .pure-form input[type=search],
+    .pure-form input[type=text],
+    .pure-form label {
+        margin-bottom: .3em;
+        display: block
+    }
+    .pure-group input:not([type]),
+    .pure-group input[type=password],
+    .pure-group input[type=email],
+    .pure-group input[type=url],
+    .pure-group input[type=date],
+    .pure-group input[type=month],
+    .pure-group input[type=time],
+    .pure-group input[type=datetime],
+    .pure-group input[type=datetime-local],
+    .pure-group input[type=week],
+    .pure-group input[type=tel],
+    .pure-group input[type=color],
+    .pure-group input[type=number],
+    .pure-group input[type=search],
+    .pure-group input[type=text] {
+        margin-bottom: 0
+    }
+    .pure-form-aligned .pure-control-group label {
+        margin-bottom: .3em;
+        text-align: left;
+        display: block;
+        width: 100%
+    }
+    .pure-form-aligned .pure-controls {
+        margin: 1.5em 0 0
+    }
+    .pure-form .pure-help-inline,
+    .pure-form-message,
+    .pure-form-message-inline {
+        display: block;
+        font-size: .75em;
+        padding: .2em 0 .8em
+    }
+}
+
+.pure-menu-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3
+}
+
+.pure-menu-item,
+.pure-menu-list {
+    position: relative
+}
+
+.pure-menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.pure-menu-item {
+    padding: 0;
+    margin: 0;
+    height: 100%
+}
+
+.pure-menu-heading,
+.pure-menu-link {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap
+}
+
+.pure-menu-horizontal {
+    width: 100%;
+    white-space: nowrap
+}
+
+.pure-menu-horizontal .pure-menu-list {
+    display: inline-block
+}
+
+.pure-menu-horizontal .pure-menu-heading,
+.pure-menu-horizontal .pure-menu-item,
+.pure-menu-horizontal .pure-menu-separator {
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle
+}
+
+.pure-menu-item .pure-menu-item {
+    display: block
+}
+
+.pure-menu-children {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 3
+}
+
+.pure-menu-horizontal .pure-menu-children {
+    left: 0;
+    top: auto;
+    width: inherit
+}
+
+.pure-menu-active>.pure-menu-children,
+.pure-menu-allow-hover:hover>.pure-menu-children {
+    display: block;
+    position: absolute
+}
+
+.pure-menu-has-children>.pure-menu-link:after {
+    padding-left: .5em;
+    content: "\25B8";
+    font-size: small
+}
+
+.pure-menu-horizontal .pure-menu-has-children>.pure-menu-link:after {
+    content: "\25BE"
+}
+
+.pure-menu-scrollable {
+    overflow-y: scroll;
+    overflow-x: hidden
+}
+
+.pure-menu-scrollable .pure-menu-list {
+    display: block
+}
+
+.pure-menu-horizontal.pure-menu-scrollable .pure-menu-list {
+    display: inline-block
+}
+
+.pure-menu-horizontal.pure-menu-scrollable {
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    padding: .5em 0
+}
+
+.pure-menu-horizontal.pure-menu-scrollable::-webkit-scrollbar {
+    display: none
+}
+
+.pure-menu-horizontal .pure-menu-children .pure-menu-separator,
+.pure-menu-separator {
+    background-color: #ccc;
+    height: 1px;
+    margin: .3em 0
+}
+
+.pure-menu-horizontal .pure-menu-separator {
+    width: 1px;
+    height: 1.3em;
+    margin: 0 .3em
+}
+
+.pure-menu-horizontal .pure-menu-children .pure-menu-separator {
+    display: block;
+    width: auto
+}
+
+.pure-menu-heading {
+    text-transform: uppercase;
+    color: #565d64
+}
+
+.pure-menu-link {
+    color: #777
+}
+
+.pure-menu-children {
+    background-color: #fff
+}
+
+.pure-menu-disabled,
+.pure-menu-heading,
+.pure-menu-link {
+    padding: .5em 1em
+}
+
+.pure-menu-disabled {
+    opacity: .5
+}
+
+.pure-menu-disabled .pure-menu-link:hover {
+    background-color: transparent
+}
+
+.pure-menu-active>.pure-menu-link,
+.pure-menu-link:focus,
+.pure-menu-link:hover {
+    background-color: #eee
+}
+
+.pure-menu-selected .pure-menu-link,
+.pure-menu-selected .pure-menu-link:visited {
+    color: #000
+}
+
+.pure-table {
+    empty-cells: show;
+    border: 1px solid #cbcbcb
+}
+
+.pure-table caption {
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center
+}
+
+.pure-table td,
+.pure-table th {
+    border-left: 1px solid #cbcbcb;
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em
+}
+
+.pure-table td:first-child,
+.pure-table th:first-child {
+    border-left-width: 0
+}
+
+.pure-table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom
+}
+
+.pure-table td {
+    background-color: transparent
+}
+
+.pure-table-odd td,
+.pure-table-striped tr:nth-child(2n-1) td {
+    background-color: #f2f2f2
+}
+
+.pure-table-bordered td {
+    border-bottom: 1px solid #cbcbcb
+}
+
+.pure-table-bordered tbody>tr:last-child>td {
+    border-bottom-width: 0
+}
+
+.pure-table-horizontal td,
+.pure-table-horizontal th {
+    border-width: 0 0 1px;
+    border-bottom: 1px solid #cbcbcb
+}
+
+.pure-table-horizontal tbody>tr:last-child>td {
+    border-bottom-width: 0
+}
