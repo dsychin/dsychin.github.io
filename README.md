@@ -1,5 +1,5 @@
 # Personal Portfolio Website
-This is my portfolio website made following the design mockup for one of Udacity's Full Stack Web Developer Project.
+This is my portfolio website.
 ## Prerequisites
 - A modern web browser
 ## Usage Instructions
