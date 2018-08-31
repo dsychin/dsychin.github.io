@@ -127,26 +127,28 @@
                     </div>
                     <div class="col-md-7 col-md-push-1 animate-box">
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Name">
+                            <form name="contact" method="POST" netlify>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control" placeholder="Name">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Email">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="email" class="form-control" placeholder="Email">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea name="" name="message" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <input type="submit" value="Send Message" class="btn btn-primary btn-modify">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="submit" value="Send Message" class="btn btn-primary btn-modify">
+                                    </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
